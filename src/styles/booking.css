@@ -1,0 +1,77 @@
+.booking-container {
+  background: #0f0f0f;
+  min-height: 100vh;
+  padding: 40px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.booking-container h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.booking-container p {
+  color: #bbb;
+  margin-bottom: 5px;
+}
+
+.booking-section {
+  margin-top: 30px;
+}
+
+.booking-section label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+input[type="date"] {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  background: #222;
+  color: white;
+}
+
+.slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.slot {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #222;
+  color: white;
+  transition: 0.3s;
+}
+
+.slot:hover {
+  background: #444;
+}
+
+.slot.selected {
+  background: #e50914;
+}
+
+.confirm-btn {
+  margin-top: 30px;
+  padding: 12px 25px;
+  background: #e50914;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.confirm-btn:hover {
+  background: #ff1f2f;
+}
